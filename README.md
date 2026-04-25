@@ -20,3 +20,12 @@ cd sea-bloom-monitor
 
 # 安装依赖
 pip install -r requirements.txt# sea-bloom-monitor
+
+🚀 使用说明
+运行数据预处理脚本：python data_preprocess.py
+启动模型训练：python train_model.py
+生成预测结果与可视化：python predict_visualize.py
+📄 开源说明
+项目基于 Python 与 PyTorch 开发，使用pandas/numpy等通用开源库
+核心 FTS-Transformer 模型为团队独立设计实现
+本项目采用 MIT 开源协议，详见 LICENSE
